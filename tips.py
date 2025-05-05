@@ -8,7 +8,7 @@ print("Hello","World",sep=("\t"))
 '''
 #Data Types
 '''
-a='hi'
+a='i'
 b=123
 c=56.5
 d=2+0j#complex
@@ -512,7 +512,7 @@ while(i<=99):
        print(i)
        '''
 #Password
-
+'''
 correct_password = "1234567890"
 
 while True:
@@ -522,11 +522,11 @@ while True:
         break
     else:
         print("Incorrect password. Try again.")
-
+'''
 #username & password
 '''
 i=0
-correct_username = "user123"
+correct_username = "user123"ṇ
 correct_password = "1234567890"
 while(i<3):
      username = input("Enter the username: ")
@@ -538,7 +538,7 @@ while(i<3):
      else:
         print("Incorrect password. Try again.")
         i+=1
-        '''
+  '''      
 #Sum numbers until the user types 0
 '''
 x=0
@@ -625,6 +625,40 @@ if(check==a):
     print("Amstrong")
 else:
     print("Not an Amstrong")'''
+   
+#-------------------------------------------------------------------------------------------------------------------
+'''
+i1= int(input('Enter your Number:'))
+i2= int(input('Enter your Number:'))
+i3= int(input('Enter your Number:'))
+
+while True:
+    if(i1%2==0)and(i2%2==0)and(i3%2==0):
+        print('Number:',i1+i2+i3)
+        break
+    else:
+        print('Try again')
+        i1= int(input('Enter your Number:'))
+        i2= int(input('Enter your Number:'))
+        i3= int(input('Enter your Number:'))'''
+#-------------------------------------------------------------------------------------------------------------------
+i= int(input('Enter your Number:'))
+i2=i*i
+d=0
+rev=0
+while i>0:
+    d=i%10
+    rev=rev*10+d
+    i=i//10
+print(rev)
+    
+    
+        
+                        
+    
+
+
+        
     
 
     

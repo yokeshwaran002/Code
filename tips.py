@@ -642,15 +642,27 @@ while True:
         i2= int(input('Enter your Number:'))
         i3= int(input('Enter your Number:'))'''
 #-------------------------------------------------------------------------------------------------------------------
-i= int(input('Enter your Number:'))
+'''i= int(input('Enter your Number:'))
 i2=i*i
 d=0
-rev=0
+r=0
 while i>0:
     d=i%10
-    rev=rev*10+d
+    r=r*10+d
     i=i//10
-print(rev)
+print(r)
+x=r*r
+y=0
+z=0
+while x>0:
+    y=x%10
+    z=z*10+y
+    x=x//10
+print(z)
+if(i2==z):
+    print('yes')
+else:
+    print('no')'''
     
     
         

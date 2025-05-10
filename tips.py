@@ -700,6 +700,39 @@ add(7,3)
 def arbit(*a):
     print(a[2])
 arbit(2,3,4,8,9)
+def Amstrong():
+    i = int(input('Enter your Number:'))
+    x=(i%100)
+    a,b,c=(i//100),(x//10),(i%10)
+    a1,b1,c1=a*a*a,b*b*b,c*c*c
+    i1=a1+b1+c1
+    if(i==i1):
+        print('Amstrong Number')
+    else:
+        print(' Not Amstrong Number')
+           
+def Palindrome():
+    i= int(input('Enter your Number:'))
+    q=i
+    d=0
+    r=0
+    while i>0:
+        d=i%10
+        r=r*10+d
+        i=i//10
+    print(r)
+    if(q==r):
+        print('palindrome number')
+    else:
+        print('Not palindrome number')
+        
+q = int(input('Enter your Number:'))
+if(q==1):
+    Amstrong()
+elif(q==2):
+    Palindrome()
+else:
+    print('Not used Number')
     
 
     
